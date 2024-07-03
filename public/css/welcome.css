@@ -60,11 +60,11 @@ body {
 }
 .reveal::before {
     left: 50%;
-    animation: slideLeft 1.5s cubic-bezier(0.7, -0.6, 0.3, 1.5) forwards;
+    /* animation: slideLeft 1.5s cubic-bezier(0.7, -0.6, 0.3, 1.5) forwards; */
 }
 .reveal::after {
     right: 50%;
-    animation: slideRight 1.5s cubic-bezier(0.7, -0.6, 0.3, 1.5) forwards;
+    /* animation: slideRight 1.5s cubic-bezier(0.7, -0.6, 0.3, 1.5) forwards; */
 }
 
 @keyframes fadeIn {
